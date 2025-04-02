@@ -37,12 +37,15 @@
 							<p>Simulations play a crucial role in this scenario. They allow for testing and validating different analysis techniques, to ensure their accuracy and robustness before being applied to real observations. Moreover, they help refining mass reconstruction methods, which can achieve percent-level precision. Additionally, they offer a means to explore discrepancies between theoretical predictions and observations, thus probing the Λ-CDM cosmological model. </p>
                                                         <p>In this project, we have used SkyLens to simulate cluster-scale strong lenses, with an observational setup that reproduces the observations of the Hubble Space Telescope. We use a Navarro-Frenk-White profile to modeol the main dark matter halo of the clusters and pseudo-isothermal ellipsoid mass distributions for the population of cluster members. Along with the images and the catalogs of galaxies, we also release the deflection angle maps and convergence maps of the clusters.</p>
                                                         <p>Our aim is to provide a realistic data set that can support studies of strong lensing by galaxy clusters, facilitate the development of machine learning techniques, and contribute to the interpretation of future survey data. </p>
-                                                        <p>You can download the simulations at <a href="https://drive.google.com/drive/folders/1kvMqoz6kBN1_ZEjS-1AVJBhZhIBQfNSx" target="_blank">this link</a>. Here, you will find:</p>
+                                                        <p>You can download the simulations at <a href="https://drive.google.com/drive/folders/1kvMqoz6kBN1_ZEjS-1AVJBhZhIBQfNSx" target="_blank">this link</a>. Here, you will find, for every cluster identified by the number ID:</p>
                                                         <ul>
-							    <li>Simulation 1: Description of the first simulation</li>
-							    <li>Simulation 2: Description of the second simulation</li>
-							    <li>Simulation 3: Description of the third simulation</li>
+							    <li>dmap_ID.fits: the deflection angle maps in the field of view of the simulation;</li>
+							    <li>kappa_ID.fits: the convergence map in the field of vire of the simulation;</li>
+							    <li>image_BAND_ID.fits: the images simulated for different observational bands of the Hubble Space Telescope;</li>
+							    <li>bkg_xdf_BAND_ID.fits: information about the background sources of the image in a given band;</li>
+							    <li>clmemb_BAND_ID.fits: information about the cluster members of the cluster in a given band.</li>
 							</ul>
+							<p>More information about the content of the specific files can be found in the README file in the download folder.</p>
 						</div>
 					</section>
 
